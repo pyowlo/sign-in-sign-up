@@ -1,13 +1,14 @@
-/* Centering the app container */
 .app {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-image: url('C:\Users\Pavilion\"C:\Users\Pavilion\Desktop\sign in sign up\istockphoto-1329715338-612x612.jpg"\sign in sign up'); /* Specify the path to your background image */
+  background-size: cover;
+  background-position: center;
 }
 
-/* Centering the form container */
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -16,13 +17,12 @@
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-/* Styling the forms */
 .form {
   width: 100%;
   display: flex;
